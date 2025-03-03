@@ -131,4 +131,4 @@ async def on_message(message):
 async def hello(ctx):
     await ctx.send("สวัสดีครับ!")
 
-bot.run(TOKEN)
+client.run(TOKEN)
